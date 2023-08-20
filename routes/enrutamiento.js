@@ -4,7 +4,7 @@ const express = require('express');
 const router =  express.Router();
 
 //Interfaces generales
-router.get('/principal', acciones.mostrarPrincipal);
+router.get('/', acciones.mostrarPrincipal);
 router.get('/catalogo', acciones.mostrarCatalogo);
 router.get('/perfilAdmin', accionesAdmin.mostrarVistaAdmin);
 router.get('/landingadmin', accionesAdmin.mostrarLandingAdmin);

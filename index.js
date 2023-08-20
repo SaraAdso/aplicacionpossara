@@ -14,5 +14,5 @@ app.listen(7005, () =>{
     console.log('funciona wii')
 }) //.listen: Inicia el servidor, se escucha en el puerto que hay en los parentesis. Se ejecuta la funcion () => cuando el servidor está en línea
 
-app.use('/api/v1/', ruticas)
+app.use('/', ruticas)
 
